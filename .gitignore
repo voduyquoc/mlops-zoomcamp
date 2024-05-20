@@ -34,3 +34,16 @@ override.tf.json
 terraform.rc
 
 *.json
+.env
+
+# ide
+.vscode/
+.ipynb_checkpoints/
+
+# python
+__pycache__/
+.history
+
+# dbt
+target/
+logs/
