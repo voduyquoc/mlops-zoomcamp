@@ -35,6 +35,9 @@ terraform.rc
 
 *.json
 .env
+env/
+venv/
+ENV/
 
 # ide
 .vscode/
