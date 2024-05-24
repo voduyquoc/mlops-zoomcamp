@@ -65,6 +65,9 @@ venv
 .idea
 **/artifacts/
 **/models/
+mlruns/
+output/
+preprocessor/
 
 __pycache__/
 **.env
