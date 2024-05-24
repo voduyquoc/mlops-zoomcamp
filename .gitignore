@@ -50,3 +50,27 @@ __pycache__/
 # dbt
 target/
 logs/
+
+data/
+.ipynb_checkpoints
+.bin
+*.db
+
+*.parquet
+*.html
+*.csv
+
+.venv
+venv
+.idea
+**/artifacts/
+**/models/
+
+__pycache__/
+**.env
+**.terraform/
+**.terraform.lock*
+**terraform.tfstate*
+
+
+.DS_Store
