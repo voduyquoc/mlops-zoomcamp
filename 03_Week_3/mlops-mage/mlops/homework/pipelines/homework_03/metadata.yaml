@@ -60,8 +60,7 @@ blocks:
   configuration:
     file_source:
       path: homework/data_exporters/register_model.py
-  downstream_blocks:
-  - beautiful_dew
+  downstream_blocks: []
   executor_config: null
   executor_type: local_python
   has_callback: false
@@ -74,24 +73,6 @@ blocks:
   upstream_blocks:
   - prepare
   uuid: register_model
-- all_upstream_blocks_executed: true
-  color: null
-  configuration:
-    file_source:
-      path: homework/data_exporters/beautiful_dew.py
-  downstream_blocks: []
-  executor_config: null
-  executor_type: local_python
-  has_callback: false
-  language: python
-  name: beautiful dew
-  retry_config: null
-  status: executed
-  timeout: null
-  type: data_exporter
-  upstream_blocks:
-  - register_model
-  uuid: beautiful_dew
 cache_block_output_in_memory: false
 callbacks: []
 concurrency_config: {}
