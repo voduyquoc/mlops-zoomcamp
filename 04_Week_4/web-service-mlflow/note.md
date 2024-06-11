@@ -1,1 +1,3 @@
-mlflow server --backend-store-uri=sqlite:///mlflow.db --default-artifact-root s3://mlflow-models-quocvo/
+mlflow server --backend-store-uri=sqlite:///mlflow.db --default-artifact-root=s3://mlflow-models-quocvo/
+
+export RUN_ID=""
