@@ -81,7 +81,7 @@ def main(year, month):
     df_result['ride_id'] = df['ride_id']
     df_result['predicted_duration'] = y_pred
 
-    print(sum(df_result['predicted_duration']))
+    print('predicted sum duration:', df_result['predicted_duration'].sum())
     # df_result.to_parquet(output_file, engine='pyarrow', index=False)
     save_data(df_result, output_file, options)
 
